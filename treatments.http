@@ -1,0 +1,11 @@
+### Add a treatment
+POST http://localhost:8080/api/treatments
+Content-Type: application/json
+
+{
+  "name": "Hydrating Facial",
+  "description": "A gentle facial treatment focused on hydration.",
+  "price": 75000,
+  "durationMinutes": 60,
+  "active": true
+}
