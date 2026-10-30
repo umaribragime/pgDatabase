@@ -1,4 +1,13 @@
 package com._24.database.appointment;
 
-public class AppointmentResponse {
+import java.time.LocalTime;
+import java.time.LocalDate;
+
+public record AppointmentResponse (
+        LocalDate date,
+        LocalTime startTime,
+        LocalTime endTime,
+        boolean available
+){
+
 }
